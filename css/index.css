@@ -1,0 +1,105 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=BioRhyme&display=swap');
+
+html{
+    font-family: 'BioRhyme','serif';
+}
+.hello-prabhjot{
+    text-align: center;
+}
+
+.grades-list p{
+    display: inline-block;
+    list-style-type: disc;
+    text-decoration: none;
+}
+ ol,ul li a{
+     text-decoration: none;
+ }
+
+a{
+    text-decoration: none;
+}
+
+.arrow-right{
+    border: solid darkolivegreen;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+.tools > ul li a{
+    text-decoration: none;
+}
+
+h2{
+    border: solid 0.5px black;
+    border-bottom: solid 0.5px black;
+    padding: 1rem 1rem;
+    background-color: #E8EDE1;
+    text-align: center;
+}
+
+.grades{
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.demo,.demo1,.demo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.footer{
+    background-color: #E8EDE1;
+}
+
+.need-help,.my-tasks{
+
+    margin-bottom: 5rem;
+}
+
+#average,#cgpa{
+    display: inline-block;
+}
+
+#cgpa{
+    padding-left: 5rem;
+}
+
+/* 
+.announcements{
+    padding-top: 0px;
+    border: 0.1rem solid transparent;
+} */
+
+.announcements,.my-courses,.my-grades,.tools,.need-help,.my-tasks{
+    border: 0.1rem solid darkgoldenrod;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem #E8EDE1;
+
+}
+
+.my-grades,.tools,.need-help,.my-tasks{
+    margin-top: 5rem;
+}
+
+
+.announcements a:hover,.my-courses a:hover,.my-grades a:hover,.tools a:hover,.need-help a:hover,.my-tasks a:hover{
+    font-size:1.5rem;
+}
+/* .new-grades{
+    padding-left: 5rem;
+} */
+
+.announcements > h2{
+    padding-top: 0em;
+    
+}
